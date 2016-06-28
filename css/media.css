@@ -1,0 +1,122 @@
+@media screen and (max-width: 1310px) {
+  .wrap-top {
+    margin-left: 13.5%;
+  }
+  .head-contact {
+    float: right;
+    width: 67%;
+    margin-right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 708px) {
+  .logo-img img {
+    transform: scale(0.9);
+  }
+  .head-adress .text,
+  .head-contact p {
+    font-size: 1.4rem;
+  }
+  .text p {
+    font-size: 1.2rem;
+  }
+  .head-contact p:nth-of-type(1),
+  .head-contact strong,
+  .text strong {
+    font-size: 1.6rem;
+  }
+  .gps-img img {
+    transform: scale(0.7)
+  }
+  .head-contact{
+    float: right;
+    /*    margin-right: 1.1%;*/
+    width: 61%;
+  }
+  .top-heading h1 {
+  }
+  .top-heading {
+    margin-top: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 570px) {
+  .top-buttons .col-xs-2,
+  .top-buttons .col-xs-10 {
+    float: none;
+    width: 100%;
+  }
+  .top-buttons {
+    margin-top: -0.7rem;
+    min-height: 13.0rem;
+/*    Возможен баг из за растягивающегоя header */
+  }
+  .wrapper {
+    width: 65.4%;
+    margin:auto;
+    padding: auto;
+  }
+  .img-but {
+    margin: 2rem auto 0;
+    display: block;
+  }
+  .price-but {
+    display: block;
+    margin: 1.1rem auto 0;
+  }
+  .top-buttons {
+    padding-left: 0;
+  }
+
+  body header .col-xs-5,
+  body header .col-xs-3, 
+  body header .col-xs-4 {
+    float: none;
+    width: 100%;
+  }
+  .wrap-top {
+    text-align: center;
+    margin: 0 auto 0 ;
+  }
+  .logo-img {
+    margin: 2.6rem auto 1.9rem;
+    width: 100%;
+    text-align: center;
+    display: table;
+  }
+  .logo-img img {
+    margin: auto;
+    transform: scale(1.0);
+  }
+  .head-contact {
+    margin: auto;
+    width: 49%;
+    text-align: center;
+    line-height: 2.3rem;
+    float: none
+  }
+  .text p{
+    font-size: 1.7rem;
+  }
+  .text p:nth-child(3){
+    font-size: 1.7rem;
+    line-height: 2.9rem;
+    margin-top: -0.5rem;
+  }
+  .text strong {
+    font-size: 2.5rem;
+    letter-spacing: 1.1px;
+  }
+
+  .head-contact p:nth-of-type(1) {
+    font-size: 2.6rem;
+  }  
+}
+
+@media screen and (max-width:1300px) and (min-width:570px) {
+  .logo-img img {
+    margin-left: 33.1%;
+  }
+}
+ 
