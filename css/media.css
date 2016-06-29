@@ -50,7 +50,7 @@
   .top-buttons {
     margin-top: -0.7rem;
     min-height: 13.0rem;
-/*    Возможен баг из за растягивающегоя header */
+    /*    Возможен баг из за растягивающегоя header */
   }
   .wrapper {
     width: 65.4%;
@@ -119,4 +119,94 @@
     margin-left: 33.1%;
   }
 }
+
+@media screen and (max-width:1300px){
+  
+  nav {
+    min-height: 4.2rem;
+    background-color: #242424;
+  }
+  
+  .main-nav-but {
+    padding-left: 25%;
+  }
+  
+  .main-nav-but li:nth-of-type(1) {
+    width: 55%;
+  }
+  .main-nav-but li:nth-of-type(2) {
+    width: 55%;
+  }
+  .main-nav-but li:nth-of-type(3) {
+    width:55%;
+    padding: 0;
+  }
+  .main-nav-but li:nth-of-type(4) {
+    width: 55%;
+    padding: 0;
+  }
+  .main-nav-but li:nth-of-type(5) {
+    width: 55%;
+    padding:0;
+  }
+  .main-nav-but li:nth-of-type(6) {
+    width: 55%;
+    padding:0;
+  }
+  .main-nav-but li:nth-of-type(7) {
+    width: 55%;
+    padding:0;
+  }
+  html .main-nav-but li {
+    float: none;
+    width: 34rem;
+  }
+  html .main-nav-but li a {
+    background-image: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  .main-nav-but li:nth-of-type(1) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(2) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(3) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(4) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(5) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(6) a {
+    padding-left: 0;
+  } 
+  .main-nav-but li:nth-of-type(7) a {
+    padding-left: 0;
+  } 
+  .main-nav-but input ~ li {
+    display: none;
+  }
+  .main-nav-but li.adapt {
+    width: 55%;
+    height: 4.4rem;
+  }
+  input:checked[name="cont"] + nav {
+    height: 17.4rem;
+  }
+  
+  input:checked[name="controls"] ~ li {
+    display: block;
+  }
  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+}
+
+
+
