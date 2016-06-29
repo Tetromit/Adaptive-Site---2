@@ -187,24 +187,32 @@
   .main-nav-but li:nth-of-type(7) a {
     padding-left: 0;
   } 
-  .main-nav-but input ~ li {
+  ul .adapt ~ li {
     display: none;
   }
   .main-nav-but li.adapt {
-    width: 55%;
+    width: 53%;
     height: 4.4rem;
   }
-  input:checked[name="cont"] + nav {
+  input:checked + nav {
     height: 17.4rem;
   }
   
-  input:checked[name="controls"] ~ li {
+/*
+  input:checked li.drop {
     display: block;
   }
+*/
+  input:checked + nav .drop {
+    display: block;
+
+  }
  
+/*
   input[type="checkbox"] {
     display: none;
   }
+*/
   
 }
 
