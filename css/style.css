@@ -302,7 +302,7 @@ nav {
 .main-nav-but li.adapt {
   width: 1.1rem;
 }
-input {
+input#id1 {
   display: none;
 }
 .adapt {
@@ -322,7 +322,7 @@ input {
 .main-heading h1 {
   letter-spacing: 2.2px;  
   font-size: 2.9rem;
-  width: 35.7rem;
+  min-width: 16.0rem;
   height: 4.4rem;
   display: inline-block;
   margin-top: 1.9rem;
@@ -338,10 +338,9 @@ input {
   vertical-align: middle;
 }
 .cont-align {
-  width: 100%;
+  width: auto;
   height: 6.0rem;
   text-align: center;
-  margin: auto;
   margin-top: 2.7rem;
 }
 /*          Buttons-Hard !!!!
@@ -391,7 +390,7 @@ input {
   text-align: center;
   border-top: 1px solid #353535;
 }
-label {
+.cat label {
   background-image: url(../img/ar_r.png);
   background-repeat: no-repeat;
   background-size: 10%;
@@ -445,6 +444,84 @@ label {
 label:hover {
   background-image: url(../img/ar_w.png);
 }
+/*          .Refer:action
+===================================
+*/
+
+.refer-1,.refer-2 {
+  width: 88.4rem;
+  line-height: 3.0rem;
+  margin: 1.9rem auto;
+  padding-top: 0.5rem;
+  text-align: center;
+  background-color: #353535;
+}
+.refer-1 a,
+.refer-2 a {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+}
+.refer-1 a:first-child {
+  margin-left: 1.1rem;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10.5px 10px 10.5px;
+  border-color: transparent transparent #353535 transparent;
+  position: absolute;
+}
+.triangle-1 {
+  left: 28.7rem;
+  top: 1.1rem;
+  display: none;
+}
+.triangle-2 {
+  left: 44.1rem;
+  top: 1.1rem;
+  display: none;
+}
+.triangle-3 {
+  left: 59.2rem;
+  top: 1.1rem;
+  display: none;
+}
+.triangle-4 {
+  left: 74.4rem;
+  top: 1.1rem;
+  display: none;
+}
+.triangle-5 {
+  left: 89.5rem;
+  top: 1.1rem;
+  display: none;
+}
+.triangle-6 {
+  left: 104.8rem;
+  top: 1.1rem;
+  display: none;
+}
+.refer-1,
+.refer-2 {
+  display: none;
+}
+
+.main-button-part input {
+/*  display: none;*/
+}
+#id-1:checked ~ .refer-1 {
+  display: block;
+}
+#id-2:checked ~ .refer-2 {
+  display: block;
+}
+  
+
 
 
 
